@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg_wave"
+>
+
+    <!-- Header -->
+    <include
+        android:id="@+id/layhist"
+        layout="@layout/white_header"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingBottom="24dp"
+        app:layout_constraintTop_toBottomOf="@id/layhist"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Customer Feedback"
+                android:textSize="26sp"
+                android:textColor="#333333"
+                android:fontFamily="@font/avn_bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Question 1 Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardBackgroundColor="#F0F8FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avn_bold"
+                        android:text="1. How satisfied are you with our friendliness?"
+                        android:textColor="#0072ff"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="12dp"/>
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/radioButton1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#555555"
+                            android:buttonTint="#0072ff"
+                            android:text="Very Satisfied"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Satisfied"
+                            android:buttonTint="#0072ff"
+                            android:textColor="#555555"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Neutral"
+                            android:buttonTint="#0072ff"
+                            android:textColor="#555555"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioButto43"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Unsatisfied"
+                            android:buttonTint="#0072ff"
+                            android:textColor="#555555"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:id="@+id/radioButton5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Very Unsatisfied"
+                            android:buttonTint="#0072ff"
+                            android:textColor="#555555"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Question 2 Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardBackgroundColor="#F0F8FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avn_bold"
+                        android:text="2. Would you use our services in the future?"
+                        android:textColor="#0072ff"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="12dp"/>
+
+                    <RadioGroup
+                        android:id="@+id/radiogroup2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="#555555"
+                            android:buttonTint="#0072ff"
+                            android:text="Yes"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="No"
+                            android:buttonTint="#0072ff"
+                            android:textColor="#555555"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Maybe"
+                            android:buttonTint="#0072ff"
+                            android:textColor="#555555"
+                            android:textSize="16sp"
+                            android:paddingVertical="8dp"/>
+                    </RadioGroup>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Question 3 Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardBackgroundColor="#F0F8FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avn_bold"
+                        android:text="3. How can we improve our service?"
+                        android:textColor="#0072ff"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="12dp"/>
+
+                    <EditText
+                        android:id="@+id/msg"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:hint="Type your suggestions here..."
+                        android:textColorHint="#999999"
+                        android:textColor="#333333"
+                        android:textSize="16sp"
+                        android:gravity="top|start"
+                        android:padding="16dp"
+                        android:background="@drawable/textbox"
+                        android:inputType="textMultiLine" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Action Buttons -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="32dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sigupbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Submit Feedback"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/avn_bold"
+                    app:cornerRadius="28dp"
+                    app:backgroundTint="#0072ff" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/skip"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Skip"
+                    android:textSize="18sp"
+                    android:textColor="#555555"
+                    android:fontFamily="@font/avn_bold"
+                    app:cornerRadius="28dp"
+                    android:layout_marginTop="12dp"
+                    app:backgroundTint="#E5E7EB"
+                    app:strokeWidth="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

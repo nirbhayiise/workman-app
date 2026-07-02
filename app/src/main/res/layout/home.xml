@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg_wave_top"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/layview"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:gravity="bottom|center"
+    android:layout_height="wrap_content">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp" />
+
+    <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+        android:id="@+id/spring_dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_below="@+id/viewPager"
+        android:layout_marginTop="-10dp"
+
+        app:dampingRatio="0.5"
+        app:dotsColor="@color/whitecolor"
+
+        app:dotsSize="8dp"
+        app:dotsSpacing="4dp"
+        app:dotsStrokeColor="@color/redColor"
+        app:dotsStrokeWidth="2dp"
+        app:stiffness="100" />
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_below="@+id/layview"
+android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginBottom="60dp"
+        android:scrollbars="vertical" />
+   <include layout="@layout/hearder_layout"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:background="@drawable/menubottom">
+
+            <LinearLayout
+                android:id="@+id/homebtn"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="6dp"
+
+
+                    android:src="@drawable/home"/>
+                <TextView
+                    android:id="@+id/homtext"
+                    android:layout_width="wrap_content"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/avn"
+                    android:textColor="@color/blackColor"
+                    android:layout_height="wrap_content"
+                    android:text="Home"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/histrybtn"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="6dp"
+                    android:src="@drawable/histyr"/>
+                <TextView
+                    android:id="@+id/cattext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/blackColor"
+                    android:fontFamily="@font/avn"
+                    android:text="History"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/filetrbtn"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="4dp"
+                    android:src="@drawable/filts1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/enquerybtn"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="6dp"
+                    android:src="@drawable/notification_black"/>
+                <TextView
+                    android:id="@+id/alerttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blackColor"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/avn"
+                    android:text="Notification"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/profilebtn"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="fill_parent">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="6dp"
+                    android:src="@drawable/profile_black"/>
+                <TextView
+                    android:id="@+id/profiletext"
+                    android:layout_width="wrap_content"
+                    android:textSize="12dp"
+                    android:textColor="@color/blackColor"
+                    android:fontFamily="@font/avn"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"/>
+            </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>

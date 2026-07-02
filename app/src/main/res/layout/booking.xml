@@ -1,0 +1,272 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg_wave"
+    tools:context=".MainActivity">
+
+<include layout="@layout/white_header" android:id="@+id/hdrlay"/>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+
+    android:layout_below="@+id/hdrlay"
+    android:layout_height="fill_parent">
+  <ImageView
+      android:layout_width="fill_parent"
+      android:layout_height="140dp"
+      android:scaleType="fitXY"
+      android:src="@drawable/imgtempl"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            android:layout_weight="0.4">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="13dp"
+    android:fontFamily="@font/avn"
+    android:textColor="@color/blackColor"
+    android:paddingLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:text="Coworking-Andheri-East"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="A wing 5th Floor,Anruti  Trade Center,Mumbai"
+                android:paddingLeft="10dp"
+                android:textColor="@color/blackColor"
+                android:textSize="12dp"
+                android:fontFamily="@font/avn" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1.6">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/color_circletxt"
+                    />
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/color_circletxt"
+                    />
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/color_circletxt"
+                    />
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/white_color_circletxt"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Ranks"
+                android:textSize="12dp"
+                android:fontFamily="@font/avn"
+                android:textColor="@color/blackColor"/>
+        </LinearLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:background="@color/lineColor"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+</LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/lineColor"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:background="@drawable/star_radius">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blackColor"
+                        android:text="TODAY"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/avn"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10dp"
+                    android:fontFamily="@font/avn"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Check In-"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="20dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="fill_parent">
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+
+                android:background="@color/lineColor"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/avn"
+                android:text="1N"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+
+                android:background="@color/lineColor"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/star_radius">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blackColor"
+                    android:text="DATE"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/avn"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Check In-"
+                android:fontFamily="@font/avn"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:textColor="@color/blackColor"
+        android:textStyle="bold"
+        android:text="1 Cabins, 4 Seats"
+        android:fontFamily="@font/avn"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/lineColor"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+android:gravity="center"
+        android:fontFamily="@font/avn"
+        android:textSize="12dp"
+        android:text="Amount Payable"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+android:textSize="14dp"
+        android:fontFamily="@font/avn"
+        android:gravity="center"
+        android:textColor="@color/redColor"
+        android:text="$400"/>
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/bkg"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+android:layout_alignParentBottom="true"
+        android:text="BOOKING"
+        android:fontFamily="@font/avn_bold"
+        android:textColor="@color/whitecolor"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        />
+</RelativeLayout>

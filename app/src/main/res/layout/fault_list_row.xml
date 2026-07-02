@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#E5E7EB"
+    app:cardBackgroundColor="#FFFFFF"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smart_card_bg"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+
+            android:padding="10dp"
+            android:layout_weight="0.6">
+            <TextView
+                android:id="@+id/faulttxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Fault Name"
+android:textSize="20dp"
+                android:textColor="@color/blackColor"/>
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/blackColor"/>
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_weight="1.2">
+            <TextView
+                android:id="@+id/camerapic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+
+
+                android:textColor="@color/blackColor"
+                android:textSize="10dp"
+                android:fontFamily="@font/avn"
+                android:text="Take Photo"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="@color/blackColor"/>
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_weight="1.2">
+            <TextView
+                android:id="@+id/prove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+              android:textColor="@color/redColor"
+                android:textSize="10dp"
+                android:fontFamily="@font/avn"
+                android:text="Approve"/>
+            <ImageView
+                android:id="@+id/notaprove"
+                android:layout_width="20dp"
+                android:visibility="gone"
+                android:layout_height="20dp"
+
+             android:src="@drawable/trash_ic"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+
+        android:background="@color/blackColor"/>
+</com.google.android.material.card.MaterialCardView>

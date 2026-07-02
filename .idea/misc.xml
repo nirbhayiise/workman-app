@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Np/24-7workman/app/src/main/res/drawable-v24/selected_star_radius.xml" value="0.2203125" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/drawable/bg_rect.xml" value="0.19583333333333333" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/accept_req_details_fault_analysis.xml" value="0.22" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/accept_req_row.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/bank_from.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/banner_slider_item.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/booking.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/booking_success.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/card_view_row.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/complete_req_row.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/contactus.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/enquiry_history_row.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/enquiryhistory.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/enry_form.xml" value="0.25" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/fault_list_row.xml" value="0.2" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/fault_popup.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/filter.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/forgotpass.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/header.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/hearder_layout.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/helps.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/history.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/history_row.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/home_activity.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/login.xml" value="0.2" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/mytc.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/notification.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/notification_row.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/notify_row.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/otp.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/pay_lay.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/pending_req_details.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/pending_req_row.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/profile.xml" value="0.33" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/profile_tech.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/qr-scanner_lay.xml" value="0.11005434782608696" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/qr_scanner_lay.xml" value="0.1" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/qr_view.xml" value="0.1" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/signup.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/spl.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/successmsg.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/successmsg_getusername.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/tech_complete_req.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/tech_home_activity.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/tech_pending_req.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/tech_signup.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/techlogin.xml" value="0.12771739130434784" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/white_header.xml" value="0.12318840579710146" />
+        <entry key="..\:/Np/24-7workman/app/src/main/res/layout/white_header_new.xml" value="0.12318840579710146" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/textbox"
+    android:layout_height="200dp"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Success"
+        android:textStyle="bold"
+        android:textColor="@color/blackColor"
+        android:textSize="20dp"/>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/textbox"
+    android:padding="10dp"
+    tools:ignore="MissingConstraints">
+
+    <TextView
+        android:id="@+id/usname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/avn_bold"
+        android:text="Thank For Registering 24-7 Workman!"
+        android:textStyle="bold"
+        android:textColor="@color/blackColor"
+        android:textSize="17dp"/>
+    <Button
+        android:id="@+id/logn"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="10dp"
+        android:text="Ok"
+        android:fontFamily="@font/avn"
+        android:textColor="@color/whitecolor"
+        android:background="@drawable/button"
+        />
+
+</LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Service App Theme: Trust & Energy -->
+    <color name="colorPrimary">#2563EB</color> <!-- Trustworthy Blue (Electrician/Plumber vibe) -->
+    <color name="colorPrimaryDark">#1E3A8A</color> <!-- Deep Navy -->
+    <color name="colorAccent">#F59E0B</color> <!-- Workman Orange/Amber for call-to-actions -->
+    <color name="whitecolor">#FFFFFF</color>
+    <color name="glassWhite">#E6FFFFFF</color> <!-- 90% opaque white for frosted glass effect -->
+    <color name="blackColor">#1F2937</color> <!-- Slate 800 for softer text -->
+    <color name="lineColor">#E5E7EB</color> <!-- Clean divider lines -->
+    <color name="redColor">#EF4444</color> <!-- Alert Red -->
+    <color name="bg24">#111827</color> <!-- Dark Mode Background (Future proofing) -->
+    <color name="bg24white">#F3F4F6</color> <!-- Very soft gray background so white cards POP -->
+    <color name="bg">#FFFFFF</color> <!-- Pure white -->
+</resources>

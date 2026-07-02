@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smart_card_bg"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Coworking - Andheri East"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/avn_bold"
+            android:drawableStart="@drawable/ofcc"
+            android:drawablePadding="8dp"
+            android:textColor="@color/blackColor"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:paddingStart="24dp">
+            <!-- Simplified star rating layout -->
+            <ImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_marginEnd="2dp" android:src="@drawable/yello_star" app:tint="@color/colorAccent" />
+            <ImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_marginEnd="2dp" android:src="@drawable/yello_star" app:tint="@color/colorAccent" />
+            <ImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_marginEnd="2dp" android:src="@drawable/yello_star" app:tint="@color/colorAccent" />
+            <ImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_marginEnd="2dp" android:src="@drawable/yello_star" app:tint="@color/colorAccent" />
+            <ImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_marginEnd="2dp" android:src="@drawable/yello_star" app:tint="@color/colorAccent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/addressloca"
+            android:drawablePadding="8dp"
+            android:text="Andheri, Mumbai"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/avn"
+            android:textColor="@color/blackColor"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/cal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/small_calendar"
+                android:drawablePadding="8dp"
+                android:text="24/04/2026"
+                android:fontFamily="@font/avn"
+                android:textColor="@color/blackColor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/mony"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/money_bag"
+                android:drawablePadding="8dp"
+                android:text="$400"
+                android:gravity="end"
+                android:fontFamily="@font/avn_bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

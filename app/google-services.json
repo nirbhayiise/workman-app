@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727469271235",
+    "project_id": "workman247-40174",
+    "storage_bucket": "workman247-40174.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727469271235:android:72a8c1af7897090c96da76",
+        "android_client_info": {
+          "package_name": "com.np.onei.servicesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727469271235-ejph3p04rhif36hlqnqgmbtbk9i35d50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkoReypNAk_wRyvH2zImCGQd7u_kZbfX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727469271235-ejph3p04rhif36hlqnqgmbtbk9i35d50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

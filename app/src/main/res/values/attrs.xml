@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextViewPlus">
+        <attr name="customFont" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="PinPadView">
+        <attr name="auto_submit" format="boolean" />
+        <attr name="button_alpha_textsize" format="dimension" />
+        <attr name="button_drawable_size" format="dimension" />
+        <attr name="button_numeric_textsize" format="dimension" />
+        <attr name="pin_indicator_stroke_width" format="dimension" />
+        <attr name="pin_indicator_spacing" format="dimension" />
+        <attr name="pin_indicator_size" format="dimension" />
+        <attr name="pin_length" format="integer" />
+        <attr name="place_digits_randomly" format="boolean" />
+        <attr name="prompt_text" format="string" />
+        <attr name="prompt_textsize" format="dimension" />
+        <attr name="vibrate_on_incomplete_submit" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg_wave">
+
+    <!-- Header -->
+    <include
+        android:id="@+id/layhist"
+        layout="@layout/white_header"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingBottom="24dp"
+        app:layout_constraintTop_toBottomOf="@id/layhist"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Job Details"
+                android:textSize="22sp"
+                android:textColor="#333333"
+                android:fontFamily="@font/avn_bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Details Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#F0F8FF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Images -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="16dp"
+                        android:weightSum="2">
+
+                        <ImageView
+                            android:id="@+id/img1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:layout_marginEnd="4dp"
+                            android:background="#F3F4F6"/>
+
+                        <ImageView
+                            android:id="@+id/img2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop"
+                            android:layout_marginStart="4dp"
+                            android:background="#F3F4F6"/>
+                    </LinearLayout>
+
+                    <!-- Data Rows -->
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:stretchColumns="1">
+
+                        <!-- Order ID -->
+                        <TableRow android:paddingVertical="8dp">
+                            <TextView android:text="Order ID:" android:fontFamily="@font/avn_bold" android:textColor="#555555" android:textSize="14sp" android:paddingEnd="12dp"/>
+                            <TextView android:id="@+id/odrId" android:text="#---" android:fontFamily="@font/avn_bold" android:textColor="#0072ff" android:textSize="16sp" />
+                        </TableRow>
+
+                        <!-- Customer Name -->
+                        <TableRow android:paddingVertical="8dp">
+                            <TextView android:text="Customer:" android:fontFamily="@font/avn_bold" android:textColor="#555555" android:textSize="14sp" android:paddingEnd="12dp"/>
+                            <TextView android:id="@+id/cname" android:text="-" android:fontFamily="@font/avn" android:textColor="#333333" android:textSize="16sp" />
+                        </TableRow>
+
+                        <!-- Mobile -->
+                        <TableRow android:paddingVertical="8dp">
+                            <TextView android:text="Mobile:" android:fontFamily="@font/avn_bold" android:textColor="#555555" android:textSize="14sp" android:paddingEnd="12dp"/>
+                            <TextView android:id="@+id/cmob" android:text="-" android:fontFamily="@font/avn" android:textColor="#333333" android:textSize="16sp" />
+                        </TableRow>
+
+                        <!-- Address -->
+                        <TableRow android:paddingVertical="8dp">
+                            <TextView android:text="Address:" android:fontFamily="@font/avn_bold" android:textColor="#555555" android:textSize="14sp" android:paddingEnd="12dp"/>
+                            <TextView android:id="@+id/cadres" android:text="-" android:fontFamily="@font/avn" android:textColor="#333333" android:textSize="16sp" />
+                        </TableRow>
+
+                        <!-- Divider -->
+                        <View android:layout_height="1dp" android:background="#E5E7EB" android:layout_marginVertical="12dp"/>
+
+                        <!-- Service Name -->
+                        <TableRow android:paddingVertical="8dp">
+                            <TextView android:text="Service:" android:fontFamily="@font/avn_bold" android:textColor="#555555" android:textSize="14sp" android:paddingEnd="12dp"/>
+                            <TextView android:id="@+id/servicename" android:text="-" android:fontFamily="@font/avn_bold" android:textColor="#333333" android:textSize="16sp" />
+                        </TableRow>
+
+                        <!-- Pro Area -->
+                        <TableRow android:paddingVertical="8dp">
+                            <TextView android:text="Prof. Area:" android:fontFamily="@font/avn_bold" android:textColor="#555555" android:textSize="14sp" android:paddingEnd="12dp"/>
+                            <TextView android:id="@+id/pro_area_name" android:text="-" android:fontFamily="@font/avn" android:textColor="#333333" android:textSize="16sp" />
+                        </TableRow>
+
+                        <!-- Work Detail -->
+                        <TableRow android:paddingVertical="8dp">
+                            <TextView android:text="Work Details:" android:fontFamily="@font/avn_bold" android:textColor="#555555" android:textSize="14sp" android:paddingEnd="12dp"/>
+                            <TextView android:id="@+id/wrks" android:text="-" android:fontFamily="@font/avn" android:textColor="#333333" android:textSize="16sp" />
+                        </TableRow>
+
+                    </TableLayout>
+
+                    <!-- Hidden Button Container (Adapter Compatibility) -->
+                    <Button android:id="@+id/acceptBtn" android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Warning Notice -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="#FFF3CD"
+                android:padding="16dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:cornerRadius="8dp">
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Note: When Technician arrives at customer location, please scan this code below."
+                    android:textColor="#856404"
+                    android:fontFamily="@font/avn_bold"
+                    android:textSize="14sp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <!-- QR Code Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="32dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardBackgroundColor="#F0F8FF">
+
+                <ImageView
+                    android:id="@+id/qrview"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:padding="16dp"
+                    android:scaleType="fitCenter" />
+                    
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#E5E7EB"
+    app:cardBackgroundColor="#FFFFFF">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@drawable/smart_card_bg"
+    android:layout_marginBottom="4dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/imgct"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitXY"
+    android:src="@drawable/imgtempl"/>
+
+                <ImageView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/black_trasparent_img" />
+            </RelativeLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Coworing-Adheri East"
+                android:gravity="center|left"
+android:layout_alignParentBottom="true"
+                android:paddingLeft="6dp"
+                android:textColor="@color/whitecolor"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+<LinearLayout
+    android:layout_width="fill_parent"
+ android:layout_above="@+id/textView"
+    android:layout_height="wrap_content"
+android:layout_marginBottom="6dp"
+android:paddingLeft="6dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/yello_star"
+        android:layout_marginRight="2dp"/>
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/yello_star"
+        android:layout_marginRight="2dp"/>
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/yello_star"
+        android:layout_marginRight="2dp"/>
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/yello_star"
+        android:layout_marginRight="2dp"/> <ImageView
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:src="@drawable/yello_star"
+    android:layout_marginRight="2dp"/>
+
+</LinearLayout>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/textView"
+android:gravity="center"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="Cake"
+android:visibility="gone"
+                android:textColor="@color/whitecolor"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+</RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

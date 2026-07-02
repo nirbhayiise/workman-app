@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:orientation="vertical"
+    android:background="@drawable/app_bg_wave"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <include layout="@layout/white_header" android:id="@+id/layhist"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+android:layout_below="@+id/layhist"
+
+        android:gravity="center"
+        android:orientation="vertical"
+
+        tools:ignore="MissingConstraints">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+
+</RelativeLayout>
