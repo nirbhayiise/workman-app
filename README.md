@@ -31,6 +31,14 @@ The project features a **native Android Application** for both customers and tec
 
 ---
 
+## 📸 Screenshots
+
+| Customer Dashboard | Technician Login |
+| --- | --- |
+| ![Customer Dashboard](customer%20dashboard.jpeg) | ![Technician Login](login-technician.jpeg) |
+
+---
+
 ## 🛠️ Tech Stack
 
 - **Mobile Client**: Native Android App (Java), Retrofit 2 (for REST API consumption), RxJava 2, OkHttp, Gson, Camera/Image Pickers, QR Scanner SDK.
