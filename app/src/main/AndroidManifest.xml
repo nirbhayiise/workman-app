@@ -187,7 +187,7 @@
 
         <meta-data
             android:name="co.paystack.android.PublicKey"
-            android:value="pk_live_4010f9e181720f41715b6135ed03bff0fa1da1f5"/>
+            android:value="YOUR_PAYSTACK_PUBLIC_KEY"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"
