@@ -76,3 +76,11 @@ Before compiling the Android application, you must link it to your backend API s
    }
    ```
 4. Build and deploy the APK to your testing devices.
+
+---
+
+## 👨‍💻 Developer Contact
+
+- **Name**: Nirbhay
+- **WhatsApp**: [+918285672453](https://wa.me/918285672453)
+- **Email**: [nirbhayiise@gmail.com](mailto:nirbhayiise@gmail.com)
